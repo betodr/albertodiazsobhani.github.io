@@ -1,60 +1,89 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Frank Sinatra - The greatest singer. EVER.</title>
-</head>
-<link href="css/style.css" rel="stylesheet" type="text/css">
-<body>
-<!--
-Instructions:
-- Change the title tag to be about your favorite musician
-- Change the src of the img tag on line 9 to display as your favorite musician photo. Make sure you put this image in your images folder.
-- Alter the <li></li>(list items) in the <ol> on lines 10 - 15 to be information about your favorite musician.
-- Create a <ul> or <ol> with some quotes by your favorite musician
-- If you have time add more photos of your favorite musician. Make sure you uncomment the <h2> tag on line 26.
--->
-<img src="images/sinatra1.jpeg">
- <style>  
-            .gfg { 
-                width:auto; 
-                text-align:center; 
-                padding:20px; 
-            } 
-            img { 
-                width: 100%; 
-                height: 100%; 
-                object-fit: contain; 
-            } 
-        </style> 
+  <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link href="css/style.css" rel="stylesheet" type="text/css" />
 
+    <title>Frank Sinatra - The greatest singer. EVER.</title>
+  </head>
+    <body>
+    <header >
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">
+              <img src="images/Logo.png" class="logo-image">
+            </a>
+        
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown link
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
 
+    <section>
+      <!-- List of pictures -->
+      <ul>
+        <!-- Notice how lists can contain other html elements like the <h1> tag. Our list now has a title! -->
+        <li>
+          <img src="images/sinatra1.jpeg" />
+          <h1>Frank Sinatra:</h1>
+          <p>(/sɪˈnɑːtrə/; December 12, 1915 – May 14, 1998)</p>
+          <p>Height: 5′ 10″</p>
+        </li>
+        <li>
+            <img src="images/sinatra3.jpeg" />
+            <h1>Frank Sinatra:</h1>
+            <p>(/sɪˈnɑːtrə/; December 12, 1915 – May 14, 1998)</p>
+            <p>Height: 5′ 10″</p>
+          </li>
 
-<ol>
-  <h1>Frank Sintra:</h1> <!-- Notice how lists can contain other html elements like the <h1> tag. Our list now has a title! -->
-  <li> (/sɪˈnɑːtrə/; December 12, 1915 – May 14, 1998)</li>
-  <li>Height: 5′ 10″</li>
-  
-  
-  <img src="images/sinatra3.jpeg">​
-      
-  <p>
-      
+        <img src="images/sinatra3.jpeg" />​
 
-    Was an American singer, actor and producer who was one of the most popular and influential musical artists of the 20th century. He is one of the best-selling music artists of all time, having sold more than 150 million records worldwide.
-  </p> <!-- Lists can contain paragraph tags to! -->
-</ol>
-​<img src="images/sinatra4.jpeg">
-<!--
-Add your <ul> or <ul> with quote from your favorite musician below
--->
-​
-​
-​
-<!--<h2>Photos</h2>-->
-<!--
-If you have time add more photos of your favorite musician.
--->
-</body>
+        <p>
+          Was an American singer, actor and producer who was one of the most
+          popular and influential musical artists of the 20th century. He is one
+          of the best-selling music artists of all time, having sold more than
+          150 million records worldwide.
+        </p>
+        <!-- Lists can contain paragraph tags to! -->
+      </ol>
+      ​<img src="images/sinatra4.jpeg" />
+      <!--
+  Add your <ul> or <ul> with quote from your favorite musician below
+  -->
+      ​ ​ ​
+      <!--<h2>Photos</h2>-->
+      <!--
+  If you have time add more photos of your favorite musician.
+  -->
+    </section>
+    <footer></footer>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
 <!--
 Useful documentation if you get lost
@@ -62,18 +91,4 @@ File paths and images. How to link to files in folders -> https://www.w3schools.
 Img Tag Documentation - https://www.w3schools.com/tags/tag_img.asp
 List tag documentation - https://www.w3schools.com/html/html_lists.asp
 -->
-<Collapse
-
-
-
-
-
-
-
-
-Message #01-class-activities
-
-
-Downloads>
-
-
+<Collapse Message #01-class-activities Downloads> </Collapse>
