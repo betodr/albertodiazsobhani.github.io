@@ -2,19 +2,26 @@ h1 {
   font-size: 50px;
   color: #082a3a;
 }
-
+/**********/
+/* HEADER */
+/**********/
 .navbar {
   width: 100%;
   height: 143px;
   background-color: #006699;
 }
 .nav-link {
-  color: white !important;
+  color: #E3A72F !important;
 }
 .logo-image {
   width: 102px;
   height: 112px;
 }
+#navbarNavDropdown{
+    flex-direction: row-reverse
+}
+
+
 .gfg {
   width: auto;
   text-align: center;
