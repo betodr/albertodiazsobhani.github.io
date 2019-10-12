@@ -14,7 +14,10 @@ h1 {
   background-color: #006699;
 }
 .nav-link {
+
   color: #e3a72f !important;
+  font-size: 30px;
+  
 }
 .logo-image {
   width: 102px;
