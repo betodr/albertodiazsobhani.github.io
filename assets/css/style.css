@@ -62,5 +62,8 @@ h1 {
     height: 143px;
     font-size: 20px;
   color: #e3a72f !important;
-
+   }
+   .social-media{
+    width: 30px;
+    height: 30px;
    }
