@@ -1,3 +1,6 @@
+/* body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+} */
 h1 {
   font-size: 50px;
   color: #082a3a;
@@ -11,24 +14,50 @@ h1 {
   background-color: #006699;
 }
 .nav-link {
-  color: #E3A72F !important;
+  color: #e3a72f !important;
 }
 .logo-image {
   width: 102px;
   height: 112px;
 }
-#navbarNavDropdown{
-    flex-direction: row-reverse
+#navbarNavDropdown {
+  flex-direction: row-reverse;
+}
+.dropdown-menu {
+  background-color: #006699;
+}
+.dropdown-item {
+  color: #e3a72f !important;
 }
 
+/**********/
+/* image section */
+/**********/
 
-.gfg {
-  width: auto;
-  text-align: center;
-  padding: 20px;
-}
-img {
+.section-image {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
+/**********/
+/* project section */
+/**********/
+
+.project-image {
+  width: 343px;
+  height: 445px;
+}
+.project-title {
+  font-size: 39px;
+}
+/**********/
+/* Footer */
+/**********/
+
+.page-footer{ 
+    background-color: #006699;
+    height: 143px;
+    font-size: 28px;
+  color: #e3a72f !important;
+
+   }
